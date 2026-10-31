@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────────────────
+# Agent Profile Matching — dependencies
+#
+# This project reuses the virtualenv from Milestone 2:
+#   /Users/mohammedshahid/Developer/code/Airtribe/projects/RAG_Profile_matching/dev
+#
+# To install into a fresh venv:
+#   python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────
+
+# Core LLM & agent framework  (versions match Milestone-2 venv)
+langchain>=0.1.16
+langchain-core>=1.6.0
+langchain-community>=0.4.0
+langchain-openai>=1.7.0
+langchain-text-splitters>=1.1.0
+langgraph>=1.2.0
+
+# Vector store & embeddings
+chromadb>=1.5.0
+sentence-transformers>=2.5.0
+
+# Document loaders
+pypdf>=3.0.0
+
+# OpenAI client (version used by Milestone-2 venv)
+openai>=3.35.0
+
+# Utilities
+python-dotenv>=1.0.0
+typing-extensions>=4.9.0
+
+# Gradio UI
+gradio>=4.0.0
